@@ -1,0 +1,12 @@
+@alturaNavBar: 50px;
+@corNavBar: red;
+
+.arredondado(@raio){
+    border-radius: @raio;
+}
+
+.navbar {
+    height: @alturaNavBar;
+    background: @corNavBar;
+    .arredondado(@alturaNavBar/2);
+}

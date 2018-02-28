@@ -1,0 +1,12 @@
+Compilar -> lessc nomeArquivo.less nomeArquivo.css
+
+-> instalar grunt 
+    ->npm install -g grunt-cli
+    ->npm install grunt --save-dev
+
+-> plugin para observar alterações no arquivo less
+    ->npm install grunt-contrib-watch grunt-contrib-less --save-dev
+
+-> Criar o arquivo gruntfile.js com as configurações padroes para o Grunt funcionar.
+
+    
